@@ -1,0 +1,224 @@
+@font-face {
+  font-family: 'Impact';
+
+}
+
+#defaultCanvas0{
+  border: 1px solid black;
+}
+
+body {
+  width: 1440px;
+  margin: 0 auto;
+}
+
+
+.pading-site {
+  padding: 0 150px;
+}
+
+.donut {
+  background: #1f1f1f;
+}
+
+.header {
+  height: 73px;
+  padding-top: 15px;
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+}
+
+.header::after {
+  content: "";
+  position: absolute;
+  top: 85px;
+  left: 0;
+  width: 100%;
+  height: 4px;
+  right: 0;
+  margin: 0 auto;
+}
+
+.menu {
+  width: 242px;
+  height: 46px;
+  background: #ffffff;
+  border-radius: 10px;
+  font-family: 'Impact';
+  text-align: center;
+  font-size: 25px;
+  line-height: 50px;
+  text-decoration: none;
+  text-transform: uppercase;
+  color: #1f1f1f;
+}
+
+.menu:hover {
+  background: #1f1f1f;
+  color: red;
+ 
+}
+
+.develop {
+  width: 345px;
+}
+
+/* ---------------- */
+
+.present-img {
+  margin-top: 100px;
+}
+
+.present-underdonut {
+  margin-top: 45px;
+  text-align: center;
+}
+
+.slogan-span {
+  width: 800px;
+  height: 110px;
+  background: #ffffff;
+  text-align: center;
+  border-radius: 15px;
+  display: inline-block;
+  font-family: 'Impact';
+  font-size: 35px;
+  line-height: 35px;
+  text-align: center;
+  color: #000000;
+  margin: 10px;
+}
+
+/* ------------------ */
+
+.slogan-span1 {
+  width: 800px;
+  height: 100px;
+  background: #ffffff;
+  text-align: center;
+  border-radius: 15px;
+  display: inline-block;
+  font-family: 'Impact';
+  font-size: 100px;
+  line-height: 100px;
+  text-align: center;
+  color: #000000;
+  margin: 10px;
+}
+
+.slogan-span2 {
+  width: 800px;
+  height: 280px;
+  background: #ffffff;
+  text-align: center;
+  border-radius: 15px;
+  display: inline-block;
+  font-family: 'Impact';
+  font-size: 35px;
+  line-height: 40px;
+  text-align: center;
+  color: #000000;
+  margin: 10px;
+}
+
+.about {
+  padding-top: 50px;
+  padding-bottom: 50px;
+  text-align: center;
+  background-color: red;
+}
+
+.h1 {
+  margin: 15px auto 55px;
+  display: block;
+  text-align: center;
+}
+
+.about-text {
+    text-align: center;
+  font-family: 'Impact';
+  font-size: 35px;
+  line-height: 35px;
+  line-height: 1.5;
+  color: #000000;
+  letter-spacing: 1px;
+}
+
+.about-svg {
+  display: flex;
+  justify-content: space-between;
+  margin: 40px 280px;
+}
+
+.screenshots-block {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: nowrap;
+}
+
+/* ---------- */
+.screenshots {
+  margin: 0;
+  width: 330px;
+  height: 330px;
+}
+
+.screenshots:nth-child(1) {
+  background-image: url(imgweb/1.jpg);
+  background-size: 100%;
+  background-repeat: no-repeat;
+}
+
+.screenshots:nth-child(2) {
+  background-image: url(imgweb/2.jpg);
+  background-size: 100%;
+  background-repeat: no-repeat;
+}
+
+.screenshots:nth-child(3) {
+  background-image: url(imgweb/3.jpg);
+  background-size: 93%;
+  background-repeat: no-repeat;
+}
+
+/* ------------- */
+.developers {
+  padding-top: 15px;
+  padding-bottom: 80px;
+  background: #000000;
+  text-align: center;
+}
+.developers-img-block{
+   text-align: center;
+}
+.developers-img{
+  width: 340px;
+  text-align: center;
+}
+.developer{
+  width: 340px;
+  text-align: center;
+}
+.about-text2 {
+    text-align: center;
+  font-family: 'Impact';
+  font-size: 35px;
+  line-height: 35px;
+  line-height: 1.5;
+  color: #f1f1f1;
+  letter-spacing: 1px;
+}
+
+.about-text3 {
+  text-align: center;
+  font-family: 'Impact';
+  font-size: 35px;
+  line-height: 35px;
+  line-height: 1.5;
+  color: #f1f1f1;
+  letter-spacing: 1px;
+  width: 340px;
+  padding-left: 300px;
+
+}
